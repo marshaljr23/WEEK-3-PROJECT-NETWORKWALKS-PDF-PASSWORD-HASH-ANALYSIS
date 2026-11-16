@@ -32,23 +32,9 @@ This project demonstrates practical PDF password hash extraction and  dictionary
 | Attack Type | Dictionary Attack |
 | Result | First Flag Captured |
 
-## ⚡ 02. Attack Workflow
+## 
 
-```mermaid
-flowchart TD
-    A[Encrypted PDF] --> B[My Locked PDF3, My Locked PDF1 (for NW Tools Lab WK3-PM2), My Locked PDF2]
-    B --> C[Extracted Hash]
-    C --> D[John the Ripper]
-    E[rockyou.txt] --> D
-    D --> F[Password Recovered]
-    F --> G[Unlock PDF]
-    G --> H[Flag Captured]
-
-    style H fill:#006b35,color:#fff
-    style D fill:#222,color:#fff
-```
-
-## 🛠️ 03. Tools & Technologies
+## 🛠️ 02. Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -57,7 +43,7 @@ flowchart TD
 | John the Ripper | Password cracking |
 | rockyou.txt | Dictionary wordlist |
 
-## 💻 04. Practical Execution
+## 💻 03. Practical Execution
 
 ### Step 01 — Hash Extraction
 
@@ -106,7 +92,7 @@ Used the recovered password to unlock the encrypted PDF and verify the flag.
 <badge color="success">MISSION COMPLETED — FLAG CAPTURED</badge>
 <img width="1366" height="768" alt="PDF 2 Locked" src="https://github.com/user-attachments/assets/a28154d2-c518-4408-8cc0-40c8f596736b" />
 
-## 📸 05. Evidence & Screenshots
+## 📸 04. Evidence & Screenshots
 
 | Terminal — Password Cracking | PDF — Flag Confirmation |
 |---|---|
@@ -115,7 +101,7 @@ Used the recovered password to unlock the encrypted PDF and verify the flag.
 |<img width="1366" height="768" alt="1q" src="https://github.com/user-attachments/assets/1d2f16de-21cb-44d1-ae05-b7adb61fed7b" />
 
 
-## 🛡️ 06. Security Analysis
+## 🛡️ 05. Security Analysis
 
 **Lessons**
 
@@ -132,7 +118,7 @@ Used the recovered password to unlock the encrypted PDF and verify the flag.
 - Use trusted password managers.
 - Apply strong PDF encryption configurations such as AES-256.
 
-## ⚠️ 07. Disclaimer
+## ⚠️ 06. Disclaimer
 
 This project was performed strictly for educational and defensive cybersecurity learning purposes as part of the authorized **NETWORKWALKS** training program.
 
